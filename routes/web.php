@@ -14,3 +14,18 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+//Archivo para reseter desde la web directamete
+
+// Route::get('clearCache', function(){
+//     Artisan::call('cache:clear');
+//     Artisan::call('config:clear');
+//     Artisan::call('route:clear');
+//     Artisan::call('view:clear');
+
+//     return '<h1>Caches borradas</h1>';
+
+// });
+
+//fin del reseteo
